@@ -1,0 +1,297 @@
+/* Resetting basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #1f1818;
+}
+
+body .main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px dotted rgb(184, 184, 184);
+    padding: 2rem;
+    background-color: white
+}
+
+/* navbar styles */
+.navbar {
+    background: #007bff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    border: 1px solid white;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+/* navbar style ends */
+
+
+/* profile header styles */
+.profile-header {
+    display: flex;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.profile-header .social-profile {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.profile-header .social-profile img {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    object-fit: fill;
+}
+
+.profile-header .social-profile img:hover {
+    transform: scale(1.5);
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border: 3px solid #0056b3;
+    justify-content: space-around;
+}
+
+.profile-image img:hover {
+    transform: scale(1.5);
+}
+
+.profile-info {
+    flex: 2;
+    padding-left: 2rem;
+}
+
+.profile-info .light-font {
+    color: #4c4b4b
+}
+
+.profile-info .about-me {
+    margin-top: 2rem
+}
+/* profile header styles ends*/
+
+
+/* common styles */
+.skills-section, .experiences-section, .reviews-section, .personal-projects-section {
+    padding-top: 2rem;
+}
+
+.tile {
+    background: #e4e4e4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.tile ul li {
+    list-style-type: none;
+}
+/* common styles ends*/
+
+
+/* skills styles */
+.skills-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.skills-search {
+    flex: 1;
+}
+
+.skills-search input {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.skills-list {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill {
+    background: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* skills styles ends*/
+
+
+/* linkedin review styles */
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.review {
+    background: #e4e4e4;
+    padding: 1rem;
+    flex: 1 1 calc(33.333% - 1rem);
+    border-radius: 5px;
+}
+
+.reviewer-image {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.reviewer-details, .company-details {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-details, a {
+    text-decoration: none;
+}
+/* linkedin review styles ends */
+
+
+/* work exp styles */
+.work-experience-container {
+    display: flex;
+}
+
+.work-experience-container .about-product {
+    flex: 2;
+}
+
+.work-experience-container .contribution {
+    flex: 2;
+}
+
+.company-logo {
+    width: 4rem;
+    height: 4rem;
+    object-fit: scale-down;
+    margin-right: 1rem;
+}
+/* work exp styles ends */
+
+/* personal projects styles */
+.tile .personal-projects-container {
+    display: flex;
+}
+
+.tile .personal-projects-container li {
+    list-style-type: none;
+    border: 1px solid white;
+    margin: 0 1rem 1rem 0;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.personal-projects-container .personal-work-column-1,
+.personal-projects-container .personal-work-column-2 {
+    flex: 1;
+}
+
+.personal-projects-container .personal-work-column-1 li:hover,
+.personal-projects-container .personal-work-column-2 li:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+}
+/* personal projects styles */
+
+
+
+/* footer styles */
+.footer {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.contact, .social-links {
+    margin: 3rem;
+}
+
+.social-icons img {
+    width: 3rem;
+    margin-right: 0.5rem;
+}
+/* footer styles ends */
+
+
+/* media queries */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-info {
+        padding-left: 0;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .reviews {
+        flex-direction: column;
+    }
+}
