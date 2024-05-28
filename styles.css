@@ -130,6 +130,18 @@ body .main {
 }
 /* common styles ends*/
 
+/* resume section style*/
+.resume-holder {
+    display: flex;
+    align-items: center;
+}
+
+.resume-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+/* resume section style ends */
 
 /* skills styles */
 .skills-container {
