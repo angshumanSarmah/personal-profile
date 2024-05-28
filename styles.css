@@ -49,6 +49,7 @@ body .main {
     padding: 0.5rem 1rem;
     transition: background 0.3s;
 }
+
 /* navbar style ends */
 
 
@@ -110,11 +111,16 @@ body .main {
 .profile-info .about-me {
     margin-top: 2rem
 }
+
 /* profile header styles ends*/
 
 
 /* common styles */
-.skills-section, .experiences-section, .reviews-section, .personal-projects-section {
+.skills-section,
+.resume-section,
+.experiences-section,
+.reviews-section,
+.personal-projects-section {
     padding-top: 2rem;
 }
 
@@ -128,10 +134,11 @@ body .main {
 .tile ul li {
     list-style-type: none;
 }
+
 /* common styles ends*/
 
 /* resume section style*/
-.resume-holder {
+.resume-holder-row {
     display: flex;
     align-items: center;
 }
@@ -141,6 +148,7 @@ body .main {
     height: 2rem;
     margin-left: 1rem;
 }
+
 /* resume section style ends */
 
 /* skills styles */
@@ -176,6 +184,7 @@ body .main {
     transform: scale(1.1);
     cursor: pointer;
 }
+
 /* skills styles ends*/
 
 
@@ -201,14 +210,17 @@ body .main {
     margin-right: 1rem;
 }
 
-.reviewer-details, .company-details {
+.reviewer-details,
+.company-details {
     display: flex;
     align-items: center;
 }
 
-.reviewer-details, a {
+.reviewer-details,
+a {
     text-decoration: none;
 }
+
 /* linkedin review styles ends */
 
 
@@ -231,6 +243,7 @@ body .main {
     object-fit: scale-down;
     margin-right: 1rem;
 }
+
 /* work exp styles ends */
 
 /* personal projects styles */
@@ -259,6 +272,7 @@ body .main {
     cursor: pointer;
     background-color: rgb(210, 210, 210);
 }
+
 /* personal projects styles */
 
 
@@ -273,7 +287,8 @@ body .main {
     flex-wrap: wrap;
 }
 
-.contact, .social-links {
+.contact,
+.social-links {
     margin: 3rem;
 }
 
@@ -281,6 +296,7 @@ body .main {
     width: 3rem;
     margin-right: 0.5rem;
 }
+
 /* footer styles ends */
 
 
