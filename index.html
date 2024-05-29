@@ -12,7 +12,7 @@
     <nav class="navbar">
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#resume">Download Resume</a></li>
+            <li><a href="#resume">Resume</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#experiences">Experiences</a></li>
             <li><a href="#personal-projects">Personal Projects</a></li>
@@ -39,9 +39,27 @@
                 </div>
             </div>
             <div class="profile-info">
-                <h2 class="light-font">Hello! This is... </h2>
-                <h1>Angshuman Sarmah.</h1>
-                <h2 class="light-font">A Frontend Software Engineer</h2>
+                <div class="resume-container">
+                    <div>
+                        <h2 class="light-font">Hello! This is... </h2>
+                        <h1>Angshuman Sarmah.</h1>
+                        <h2 class="light-font">A Frontend Software Engineer</h2>
+                    </div>
+                    <div>
+                        <div class="resume-holder-row">
+                            <strong>View Resume:</strong>
+                            <a target="_blank" href="assets/Angshuman Sarmah - Web Developer.pdf">
+                                <img class="resume-icon" src="assets/resume.png" alt="Delphix Logo">
+                            </a>
+                        </div>
+                        <div class="resume-holder-row">
+                            <strong>Download Resume:</strong>
+                            <a target="_blank" href="assets/Angshuman Sarmah - Web Developer.pdf" download>
+                                <img class="resume-icon" src="assets/download icon.png" alt="Delphix Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <p class="about-me">
                     I am a software engineer with 7+ years of experience, specializing in JavaScript and TypeScript.
                     Skilled in Angular, Vue.js, Node.js, Express.js, and PostgreSQL, I excel in designing, developing,
@@ -73,7 +91,7 @@
 
         <section class="skills-section" id="skills">
             <h2>CORE SKILLS</h2>
-            <div class="skills-container">
+            <div class="skills-container tile">
                 <div class="skills-search">
                     <input type="text" placeholder="Filter skills...">
                 </div>
@@ -102,10 +120,10 @@
         <section class="experiences-section" id="experiences">
             <h2>EXPERIENCES</h2>
             <div class="tile">
-                <h3 class="company-details">
+                <a class="company-details" href="https://www.delphix.com/" target="_blank">
                     <img class="company-logo" src="assets/delphix logo.png" alt="Delphix Logo">
-                    Delphix | Remote
-                </h3>
+                    <h3>Delphix | Remote</h3>
+                </a>
                 <hr>
                 <div class="work-experience-container">
                     <div class="about-product">
@@ -148,12 +166,13 @@
                     </div>
                 </div>
             </div>
+
             <!-- ============================================================================= -->
             <div class="tile">
-                <h3 class="company-details">
-                    <img class="company-logo" src="assets/factset logo 2.png" alt="Delphix Logo">
-                    Factset | Remote, Hyderabad
-                </h3>
+                <a class="company-details" href="https://www.factset.com/" target="_blank">
+                    <img class="company-logo" src="assets/factset logo 2.png" alt="Factset Logo">
+                    <h3>Factset | Remote, Hyderabad</h3>
+                </a>
                 <hr>
                 <div class="work-experience-container">
                     <div class="about-product">
@@ -190,10 +209,10 @@
 
             <!-- ============================================================================= -->
             <div class="tile">
-                <h3 class="company-details">
-                    <img class="company-logo" src="assets/wipro logo.png" alt="Delphix Logo">
-                    Wipro | Hyderabad
-                </h3>
+                <a class="company-details" href="https://www.wipro.com/" target="_blank">
+                    <img class="company-logo" src="assets/wipro logo.png" alt="Wipro Logo">
+                    <h3> Wipro | Hyderabad</h3>
+                </a>
                 <hr>
                 <div class="work-experience-container">
                     <div class="about-product">
@@ -301,7 +320,9 @@
         </section>
 
         <section class="reviews-section" id="reviews">
-            <h2>LINKEDIN REVIEWS</h2>
+            <h2>
+                LINKEDIN REVIEWS
+            </h2>
             <div class="reviews">
                 <div class="review">
                     <a class="reviewer-details" href="https://www.linkedin.com/in/sumit-dhingra-1b0b7086/"
@@ -310,6 +331,7 @@
                             src="https://media.licdn.com/dms/image/C4E03AQH8-iS9Biu7cA/profile-displayphoto-shrink_800_800/0/1580901591339?e=1722470400&v=beta&t=8_mh9yGSn1gHp0Z42DBOzghOFITqnVUtE697MMrhBgI"
                             alt="Profile Image">
                         <strong>Sumit Dhingra</strong>
+                        <img class="reviews-section-logo" src="assets/linkedIn-logo.png" alt="LinkedIn">
                     </a>
                     <p>I've been Angshuman's manager for almost 2 years now, and it's been a pleasure. He's one of the
                         hardest working and most tech-savvy individuals on my team. His confidence, intelligence, and
@@ -323,6 +345,7 @@
                             src="https://media.licdn.com/dms/image/D5603AQF4yWtooImqeA/profile-displayphoto-shrink_800_800/0/1716220613171?e=1722470400&v=beta&t=4UCCNUOvvnMyllCpY0_u6pM1WH9_EJAdyuLE88mYt5k"
                             alt="Profile Image">
                         <strong>Mahesh Neerati</strong>
+                        <img class="reviews-section-logo" src="assets/linkedIn-logo.png" alt="LinkedIn">
                     </a>
                     <p>I worked with him almost for 3 years. He was always ready to learn the new technologies in a
                         quicker pace and share the knowledge. His presence makes the working environment very
@@ -338,6 +361,7 @@
                             src="https://media.licdn.com/dms/image/D4D03AQG5nAnd9xpo6g/profile-displayphoto-shrink_800_800/0/1690288624096?e=1722470400&v=beta&t=OY6CLZKVME06WIdPYshA1ItdX0Y0I5yNJ4eNevKv3rw"
                             alt="Profile Image">
                         <strong>Navnath Galande</strong>
+                        <img class="reviews-section-logo" src="assets/linkedIn-logo.png" alt="LinkedIn">
                     </a>
                     <p> Me and Angshuman Joined hands in starting of our career. He is the one of the best, supportive
                         guy with whom I worked.
@@ -351,6 +375,7 @@
                             src="https://media.licdn.com/dms/image/C5103AQGUo6jsKD-_fw/profile-displayphoto-shrink_800_800/0/1573385093374?e=1722470400&v=beta&t=pHzTRWzyjTUkQdm1Tnx0Fr9-m-kvlNgiFbVlECT1c0Y"
                             alt="Profile Image">
                         <strong>Abhijeet Jain</strong>
+                        <img class="reviews-section-logo" src="assets/linkedIn-logo.png" alt="LinkedIn">
                     </a>
                     <p>I had the privilege of working closely with Angshuman for a considerable period, and I can
                         confidently say that he is an exceptional professional who consistently delivers outstanding

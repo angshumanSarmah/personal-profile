@@ -1,8 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const skillList = ['JavaScript', 'TypeScript', 'Angular', 'Vuejs', 'AngularJs', 'HTML', 'CSS', 'SCSS',
-        'RxJS', 'GraphQL', 'Heroku', 'Vuex', 'VuexORM', 'Jenkins', 'Karma', 'Jasmine', 'Agile', 'Data structure', 'PostgreSQL',
-        'Cypress', 'Playwright', 'Bootstrap', 'Algorithms', 'Gradle', 'Webpack', 'babel', 'Websocket', 'Ionic', 'OWSAP',
-        'Linux', 'CVE', 'CVSS', 'Storybook', 'Angular materials', 'Git', 'GiHub', 'GitLab', 'Bitbucket'
+    const skillList = [
+        'JavaScript', 'TypeScript', 'Angular', 'Vuejs', 'AngularJs', 'HTML', 'CSS', 'SCSS',
+        'Bootstrap', 'Angular materials', 'D3.js',
+        'Debugging',
+        'RxJS', 'Vuex', 'VuexORM',
+        'Karma', 'Jasmine', 'mocha', 'Cypress', 'Playwright',
+        'Data structure', 'Algorithms',
+        'PostgreSQL', 'mongoDB',
+        'Gradle', 'Webpack', 'babel',
+        'Linux',  'Storybook', 'Git', 'GiHub', 'GitLab', 'Bitbucket',
+        'Heroku', 'Jenkins',
+        'GraphQL', 'REST',
+        'Agile', 'sprint',
+        'Ionic', 'Websocket',
+        'OWSAP', 'CVE', 'CVSS'
     ];
     const skillContainer = document.querySelector('.skills-list');
     console.log(skillContainer)

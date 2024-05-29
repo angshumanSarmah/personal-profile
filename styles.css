@@ -23,6 +23,7 @@ body .main {
     background-color: white
 }
 
+
 /* navbar styles */
 .navbar {
     background: #007bff;
@@ -39,7 +40,7 @@ body .main {
 
 .navbar ul li {
     border: 1px solid white;
-    margin-left: 1rem;
+    margin: 0.5rem 0 .5rem 1rem;
     border-radius: 1rem;
 }
 
@@ -58,6 +59,11 @@ body .main {
     display: flex;
     padding: 2rem;
     background: #f4f4f4;
+}
+
+.profile-info .resume-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .profile-header .social-profile {
@@ -151,6 +157,20 @@ body .main {
 
 /* resume section style ends */
 
+/* resume section style*/
+.resume-holder-row {
+    display: flex;
+    align-items: center;
+}
+
+.resume-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+/* resume section style ends */
+
+
 /* skills styles */
 .skills-container {
     display: flex;
@@ -221,6 +241,12 @@ a {
     text-decoration: none;
 }
 
+.reviews-section-logo {
+    width: 2rem;
+    height: 2rem;
+    /* object-fit: scale-down; */
+    margin-left: auto;
+}
 /* linkedin review styles ends */
 
 
@@ -245,6 +271,7 @@ a {
 }
 
 /* work exp styles ends */
+
 
 /* personal projects styles */
 .tile .personal-projects-container {
@@ -274,7 +301,6 @@ a {
 }
 
 /* personal projects styles */
-
 
 
 /* footer styles */
@@ -311,12 +337,24 @@ a {
         align-items: center;
     }
 
+    .profile-info .resume-container {
+        display: block;
+    }
+
     .profile-info {
         padding-left: 0;
     }
 
     .skills-container {
         flex-direction: column;
+    }
+
+    .work-experience-container {
+        display: block;
+    }
+
+    .work-experience-container .contribution {
+        margin-top: 1rem;
     }
 
     .reviews {
