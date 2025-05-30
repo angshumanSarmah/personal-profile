@@ -1,4 +1,4 @@
 # personal-profile
-This repo contains the portfolio of myself.
+This repo contains my portfolio.
 
-Visit [this](https://angshumansarmah.github.io/personal-profile/).
+Please visit [this](https://angshumansarmah.github.io/personal-profile/) to access the same.
