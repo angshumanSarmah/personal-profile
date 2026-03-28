@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const skillList = [
+        'Agentic AI', 'MCP', 'Spec Driven Development',
         'JavaScript', 'TypeScript', 'Angular', 'Vuejs', 'AngularJs', 'HTML', 'CSS', 'SCSS',
         'Bootstrap', 'Angular materials', 'D3.js',
         'Debugging',
